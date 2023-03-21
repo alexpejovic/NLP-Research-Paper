@@ -1,0 +1,356 @@
+{
+    "roberta": {
+        "glue": {
+            "cola": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.7651016746411483
+                }
+            ],
+            "sst2": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.8348214285714286
+                }
+            ]
+        },
+        "tweet": {
+            "emoji": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.40948896353166986
+                }
+            ],
+            "emotion": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 20,
+                        "lr": 0.001,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.7025641025641026
+                },
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6962072649572649
+                }
+            ],
+            "hate": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.5674627791563275
+                }
+            ],
+            "irony": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6475
+                }
+            ],
+            "offensive": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.7898478835978836
+                }
+            ],
+            "sentiment": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6560756138392857
+                }
+            ],
+            "stance_abortion": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 30,
+                        "lr": 1e-05,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6782407407407408
+                },
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6712962962962963
+                }
+            ],
+            "stance_atheism": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 30,
+                        "lr": 1e-05,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.7270408163265306
+                },
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.7818877551020408
+                }
+            ],
+            "stance_climate": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.8379629629629629
+                }
+            ],
+            "stance_feminist": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6144636015325671
+                }
+            ],
+            "stance_hillary": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6825892857142857
+                }
+            ]
+        }
+    },
+    "tweet": {
+        "glue": {
+            "cola": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6908393141945773
+                }
+            ],
+            "sst2": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.8247767857142857
+                }
+            ]
+        },
+        "tweet": {
+            "emoji": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.36990163147792704
+                }
+            ],
+            "emotion": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6269230769230769
+                }
+            ],
+            "hate": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.5408136889991729
+                }
+            ],
+            "irony": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.64
+                }
+            ],
+            "offensive": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.7743055555555556
+                }
+            ],
+            "sentiment": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6172572544642857
+                }
+            ],
+            "stance_abortion": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6655092592592592
+                }
+            ],
+            "stance_atheism": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.7161989795918366
+                }
+            ],
+            "stance_climate": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.7592592592592592
+                }
+            ],
+            "stance_feminist": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.5199952107279694
+                }
+            ],
+            "stance_hillary": [
+                {
+                    "hyperparams": {
+                        "batch_size": 32,
+                        "epochs": 7,
+                        "lr": 0.005,
+                        "max_len": 30,
+                        "weight_decay": 0.01
+                    },
+                    "test_acc": 0.6276785714285714
+                }
+            ]
+        }
+    }
+}
